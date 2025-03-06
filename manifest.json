@@ -1,0 +1,17 @@
+{
+    "short_name": "Oblique Strategies",
+    "name": "Oblique Strategies",
+    "icons": [
+      {
+        "src": "/assets/coffeeshop.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/oblique-strategies/pwa/",
+    "background_color": "#FFEFD5",
+    "display": "standalone",
+    "scope": "/oblique-strategies/pwa/",
+    "theme_color": "#FFEFD5",
+    "description": "A daily Oblique Strategy.",
+  }

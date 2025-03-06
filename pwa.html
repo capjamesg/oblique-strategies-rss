@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oblique Strategies RSS</title>
+    
     <link rel="manifest" href="/oblique-strategies/manifest.json">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://jamesg.blog/oblique-strategies/rss.xml" />
     <style>
@@ -28,24 +29,39 @@
         }
         html {
             max-width: 35rem;
+            margin: auto;
+            padding: 1rem;
         }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            flex-direction: column;
+            max-width: 25rem;
+            margin: auto;
+        }
+        .p-name {
+            font-size: 1.1rem;
+        }
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .h-feed {
+                width: 100%;
+                text-align: left;
+            }
     </style>
 </head>
 <body>
-    <h1>Oblique Strategies RSS</h1>
-    <p>A daily <a href="https://en.wikipedia.org/wiki/Oblique_Strategies">Oblique Strategy</a>.</p>
-    <h2>Today's strategy</h2>
+    <h1>Today's Oblique Strategy</h1>
     <section class="h-feed">
         <div class=" h-entry">
             <p class="p-name e-content">{{ strategy }}</p>
             <time class="dt-published" datetime="{{ date }}"></time>
         </div>
     </section>
-    <h2>Subscribe</h2>
-    <p>The URL for this feed is:</p>
-    <pre>https://jamesg.blog/oblique-strategies</pre>
-    <h2>About</h2>
-    <p><a href="https://en.wikipedia.org/wiki/Oblique_Strategies">Oblique Strategies</a> are short messages to help prompt your creativity. They were designed by Brian Eno and Peter Schmidt.</p>
-    <p>You can buy the official deck of cards from <a href="https://www.enoshop.co.uk/product/oblique-strategies.html">Brian Eno's website</a>.</p>
 </body>
 </html>
