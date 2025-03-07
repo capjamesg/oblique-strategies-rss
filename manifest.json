@@ -3,8 +3,8 @@
     "name": "Oblique",
     "icons": [
       {
-        "src": "/assets/mascot/mascot-standard.png",
-        "type": "image/ong",
+        "src": "/assets/images/oblique-strategies/logo.png",
+        "type": "image/png",
         "sizes": "512x512"
       }
     ],
