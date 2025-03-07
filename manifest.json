@@ -1,10 +1,10 @@
 {
-    "short_name": "Oblique Strategies",
-    "name": "Oblique Strategies",
+    "short_name": "Oblique",
+    "name": "Oblique",
     "icons": [
       {
-        "src": "/assets/mascot.svg",
-        "type": "image/jpg",
+        "src": "/assets/mascot/mascot-standard.png",
+        "type": "image/ong",
         "sizes": "512x512"
       }
     ],
@@ -12,6 +12,6 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/oblique-strategies/pwa/",
-    "theme_color": "#FFEFD5",
+    "theme_color": "#ffffff",
     "description": "A daily Oblique Strategy."
   }
