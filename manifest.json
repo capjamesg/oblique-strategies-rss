@@ -3,15 +3,15 @@
     "name": "Oblique Strategies",
     "icons": [
       {
-        "src": "/assets/coffeeshop.jpg",
+        "src": "/assets/mascot.svg",
         "type": "image/jpg",
         "sizes": "512x512"
       }
     ],
     "start_url": "/oblique-strategies/pwa/",
-    "background_color": "#FFEFD5",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/oblique-strategies/pwa/",
     "theme_color": "#FFEFD5",
-    "description": "A daily Oblique Strategy.",
+    "description": "A daily Oblique Strategy."
   }
